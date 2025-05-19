@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 支援Hot Reload-->
+<IPCheckUrlSetting>
+  <!-- 預設設定，適用於所有未明確指定的路徑 -->
+  <default>
+    <!-- 不支援預設拒絕與預設全允許-->
+    <!-- 可設定多個 AllowedIP 節點，單一IP或IP範圍( 192.168.1.200-192.168.1.210 ) -->
+    
+    <!--<AllowedIP value="127.0.0.1"/>-->
+  </default>
+  
+  <!-- 設定特定路徑的 IP 檢查(路徑一律從 UOF 根節點起算符合)，可另設定較深路徑為例外 -->
+  <!-- 不設定 AllowedIP 節點 或value留空表示拒絕所有 IP -->
+  <!-- 設定 AllowedIP 節點value為 *，代表允許所有IP-->
+  <!-- 可設定多個 AllowedIP 節點，單一IP或IP範圍( 192.168.1.200-192.168.1.210 ) -->
+
+  <!-- 範例-->
+  <!--
+  <location path="/CDS/Sample.aspx">
+    <AllowedIP value="192.168.3.1"/>
+    <AllowedIP value="192.168.5.1-192.168.5.100"/>
+  </location>
+  <location path="/CDS/Setting">
+    <AllowedIP value="*"/>
+  </location>  
+  <location path="/CDS">
+    <AllowedIP value=""/>
+  </location>-->
+  
+</IPCheckUrlSetting>

@@ -1,0 +1,1 @@
+{"packages":[{"name":"MNext","file":"MNextApp.1.4.3818.37285.zip","version":"1.4.3818.37285","description":"","serverversion":"24.50","appversion":"2.5.0","androidversion":"2.5.2","iosversion":"2.5.0"},{"name":"UM","file":"UMApp.1.4.3818.37886.zip","version":"1.4.3818.37886","description":"","macver":"18.0.120201","windowsver":"24.0.8370","serverver":"19.0"}]}
