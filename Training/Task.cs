@@ -18,7 +18,9 @@ namespace Training
             Ede.Uof.EIP.PrivateMessage.PrivateMessageUCO privateMessageUCO = new Ede.Uof.EIP.PrivateMessage.PrivateMessageUCO();
             UserUCO userUCO = new UserUCO();
             string userGuid = userUCO.GetGUID("Tony");
-            privateMessageUCO.SendOneNewMessage("admin", "這是測試的標題", "這是測試的內容", userGuid);
+            privateMessageUCO.SendOneNewMessage("admin", 
+                "這是測試的標題", "這是測試的內容",
+                userGuid);
         }
     }
 }
